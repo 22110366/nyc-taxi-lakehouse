@@ -1,0 +1,42 @@
+# NYC Taxi Lakehouse
+
+Đồ án cuối kỳ môn Phân Tích Dữ Liệu Lớn - HKII 2025-2026
+
+## Thành viên
+- Phạm Quốc Long (22110366) - Bronze Layer + Infrastructure
+- Phú - Silver Layer + Visualization  
+- Đa - Gold Layer + Analysis
+
+## Mô tả
+Xây dựng kiến trúc Data Lakehouse phân tích dữ liệu NYC Taxi Trip Records.
+
+Pipeline: Raw Data → Bronze → Silver → Gold → Analysis
+
+## Cấu trúc thư mục
+nyc-taxi-lakehouse/
+
+├── data/
+
+│   └── taxi_zone_lookup.csv
+
+├── notebooks/
+
+│   ├── bronze.ipynb
+
+│   ├── silver.ipynb
+
+│   ├── gold.ipynb
+
+│   └── analysis.ipynb
+
+└── requirements.txt
+
+## Dataset
+NYC Yellow Taxi Trip Records - Kaggle
+
+## Công nghệ sử dụng
+- Apache Spark + PySpark
+- Delta Lake
+- Hadoop HDFS
+- Jupyter Notebook
+- Apache Superset
